@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Навчання/ІПЗ/untitled2</OriginalElement>
+  <nodes>
+    <node x="402.32143636944136" y="470.05722820522396">work3.ConcreteDecoratorBorder</node>
+    <node x="740.9487451336964" y="470.05722820522396">work3.ConcreteDecoratorShadow</node>
+    <node x="-66.41950788097532" y="215.93149062059544">work3.Circle</node>
+    <node x="225.03020225819216" y="-13.194246964033084">work3.Element</node>
+    <node x="427.8555751400487" y="218.0817972709757">work3.Decorator</node>
+    <node x="-61.88460174767752" y="781.0350949806354">work3.Main</node>
+    <node x="51.69412760518628" y="470.05722820522396">work3.ConcreteDecoratorColor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="work3.ConcreteDecoratorColor" target="work3.Decorator" relationship="GENERALIZATION">
+      <point x="155.49987239481374" y="-3.867125996066534E-4" />
+      <point x="176.10221688662432" y="526.5568414926244" />
+      <point x="176.10221688662432" y="418.12130486624187" />
+      <point x="480.65370700636925" y="418.12130486624187" />
+      <point x="-34.701868133679454" y="57.17008084367387" />
+    </edge>
+    <edge source="work3.Circle" target="work3.Element" relationship="REALIZATION">
+      <point x="79.50000469626191" y="-4.128031144432498E-4" />
+      <point x="244.08504458598725" y="272.431077817481" />
+      <point x="-60.445157672204914" y="43.60143167740887" />
+    </edge>
+    <edge source="work3.Main" target="work3.ConcreteDecoratorBorder" relationship="CREATE">
+      <point x="82.0" y="15.0" />
+      <point x="133.48611464968144" y="840.0350949806354" />
+      <point x="133.48611464968144" y="802.0325472099348" />
+      <point x="273.98038216560496" y="802.0325472099348" />
+      <point x="273.98038216560496" y="789.365031286368" />
+      <point x="551.8214363694414" y="789.365031286368" />
+      <point x="0.0" y="56.50000000000006" />
+    </edge>
+    <edge source="work3.ConcreteDecoratorBorder" target="work3.Decorator" relationship="GENERALIZATION">
+      <point x="-149.49964063511482" y="-17.72816735519757" />
+      <point x="402.32179573432654" y="484.85118817834393" />
+      <point x="515.3555751400487" y="484.85118817834393" />
+      <point x="515.3555751400487" y="330.999002089172" />
+      <point x="8.316463178422396" y="56.417204818196296" />
+    </edge>
+    <edge source="work3.Main" target="work3.ConcreteDecoratorShadow" relationship="CREATE">
+      <point x="82.0" y="0.0" />
+      <point x="882.4487451336964" y="825.0350949806354" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="work3.Main" target="work3.Circle" relationship="CREATE">
+      <point x="-74.5" y="-44.0" />
+      <point x="-54.38460174767752" y="504.11225389187496" />
+      <point x="-24.44320047379219" y="504.11225389187496" />
+      <point x="-24.44320047379219" y="449.9745222929936" />
+      <point x="-8.320907480161651" y="449.9745222929936" />
+      <point x="-8.320907480161651" y="399.4943594129097" />
+      <point x="51.56189506760907" y="399.4943594129097" />
+      <point x="38.48140294858439" y="56.50000000000003" />
+    </edge>
+    <edge source="work3.ConcreteDecoratorShadow" target="work3.Decorator" relationship="GENERALIZATION">
+      <point x="-141.4995731591743" y="-3.6196318569636787E-4" />
+      <point x="928.9986449936303" y="526.5568662420383" />
+      <point x="928.9986449936303" y="407.71253503184715" />
+      <point x="564.0488931464965" y="407.71253503184715" />
+      <point x="48.69331800644784" y="56.79455860163574" />
+    </edge>
+    <edge source="work3.Decorator" target="work3.Element" relationship="TO_ONE">
+      <point x="0.0" y="-56.5" />
+      <point x="515.3555751400487" y="15.805999999999997" />
+      <point x="79.5" y="-14.999753035966918" />
+    </edge>
+    <edge source="work3.Decorator" target="work3.Element" relationship="REALIZATION">
+      <point x="-87.4995751400487" y="-23.0817972709757" />
+      <point x="326.6311847133758" y="251.5" />
+      <point x="22.100982455183612" y="43.60143167740887" />
+    </edge>
+    <edge source="work3.Main" target="work3.ConcreteDecoratorColor" relationship="CREATE">
+      <point x="39.0787293528638" y="-44.0" />
+      <point x="-148.0" y="56.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="2.120026444966815" showDependencies="true" x="470.1945681528661" y="188.6105803821655" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
